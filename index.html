@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light - Financial System</title>
+    <link rel="stylesheet" href="styles.css">  <!-- Link to CSS file -->
+</head>
+<body>
+    <header>
+        <div class="logo">Light</div>
+        <nav>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <aside class="sidebar">
+            <h2>Quick Access</h2>
+            <ul>
+                <li><a href="#">Recent Transactions</a></li>
+                <li><a href="#">Portfolio Overview</a></li>
+                <li><a href="#">Alerts</a></li>
+            </ul>
+        </aside>
+        
+        <section class="dashboard">
+            <h1>Dashboard</h1>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Total Assets</h3>
+                    <p>$1,250,000</p>
+                </div>
+                <div class="card">
+                    <h3>Total Liabilities</h3>
+                    <p>$500,000</p>
+                </div>
+                <div class="card">
+                    <h3>Net Worth</h3>
+                    <p>$750,000</p>
+                </div>
+            </div>
+            <h2>Recent Transactions</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="transaction-table">
+                    <!-- Transactions will be populated here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Light Financial System. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>  <!-- Link to JavaScript file -->
+</body>
+</html>
